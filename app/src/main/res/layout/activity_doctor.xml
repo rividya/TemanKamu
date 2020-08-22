@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cowobackground"
+    tools:context=".doctor">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:background="@drawable/edit_bubble_chatdarkpink"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:text="Yuk !! \n\nNgobrol langsung dengan dokter spesialis secara private, langsung dari hp kamu"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"/>
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/edit_bubble_chatputih"/>
+
+    <FrameLayout
+        android:id="@+id/doctor1"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_bubble_chat"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dokter1"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Dr.Asep Surasep\nDokter Spesialis Kulit dan Kelamin\nRp 7.500/chat"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="120dp"/>
+
+    <FrameLayout
+        android:id="@+id/doctor2"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_bubble_chat"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dokter1"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Dr.Asep Surasep\nDokter Spesialis Kulit dan Kelamin\nRp 7.500/chat"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="120dp"/>
+
+    <FrameLayout
+        android:id="@+id/doctor3"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_bubble_chat"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dokter1"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Dr.Asep Surasep\nDokter Spesialis Kulit dan Kelamin\nRp 7.500/chat"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="120dp"/>
+
+    <FrameLayout
+        android:id="@+id/doctor4"
+        android:layout_width="330dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edit_bubble_chat"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/dokter1"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Dr.Asep Surasep\nDokter Spesialis Kulit dan Kelamin\nRp 7.500/chat"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="120dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/darkPink"
+        android:layout_marginTop="667dp"/>
+
+    <ImageView
+        android:id="@+id/docterchat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/comment"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/docterdokter"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/doctor"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/docterthread"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/stickynote"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/docternotif"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/bell"
+        android:clickable="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Notifikasi"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="NOTIFIKASI"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        />
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:background="@color/white"
+    android:layout_marginTop="65dp"
+    />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/ic_account_circle_black_24dp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:text="34m"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="370dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="20dp"
+        android:text="Menjawab Cerita Anda"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:text="Pagi temen - temen, jadi aku mau cerita sedikit tentang pengalaman aku beberapa hari lalu aku sempet bingung kenapa dari anu aku keluar darah."
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/NudePink"
+        android:layout_marginTop="245dp"
+        />
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="65dp"
+      android:background="@color/darkPink"
+      android:layout_marginTop="667dp"/>
+
+    <ImageView
+        android:id="@+id/notifchat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/comment"
+        android:clickable="true"
+        />
+
+  <ImageView
+      android:id="@+id/notifdocter"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginLeft="140dp"
+      android:layout_marginTop="680dp"
+      android:src="@drawable/doctor"
+      android:clickable="true"
+      />
+
+    <ImageView
+        android:id="@+id/notifthread"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/stickynote"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/notifnotif"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="680dp"
+        android:src="@drawable/bell"
+        android:clickable="true"
+        />
+
+
+
+
+</RelativeLayout>
